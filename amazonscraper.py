@@ -25,7 +25,7 @@ def send_mail():
         config('RECIEVER'),
         msg
     )
-    print("Email sent 📬")
+    print("Email sent to you 📬")
     server.quit()
 
 def check_price():
